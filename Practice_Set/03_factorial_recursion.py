@@ -6,7 +6,6 @@ def factorial(n):
     # Recursive case: n * factorial(n-1)
     else:
         return n * factorial(n - 1)
-
 def main():
     print("--- Factorial using Recursion ---")
     try:
@@ -18,7 +17,5 @@ def main():
             print(f"The factorial of {num} is: {result}")
     except ValueError:
         print("Invalid input! Please enter a valid integer.")
-
 if __name__ == "__main__":
     main()
-

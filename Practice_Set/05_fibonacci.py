@@ -2,8 +2,7 @@ def print_fibonacci(n):
     """Prints the Fibonacci sequence up to n terms."""
     # First two terms of Fibonacci sequence
     a, b = 0, 1
-    count = 0
-    
+    count = 0    
     if n <= 0:
         print("Please enter a positive integer.")
     elif n == 1:
@@ -19,7 +18,6 @@ def print_fibonacci(n):
             b = next_term
             count += 1
         print() # For a new line at the end
-
 def main():
     print("--- Fibonacci Sequence Generator ---")
     try:
@@ -27,7 +25,5 @@ def main():
         print_fibonacci(n)
     except ValueError:
         print("Invalid input! Please enter a valid integer.")
-
 if __name__ == "__main__":
     main()
-

@@ -4,7 +4,6 @@ def check_even_odd(number):
         return "Even"
     else:
         return "Odd"
-
 def main():
     print("--- Even or Odd Checker ---")
     try:
@@ -13,7 +12,5 @@ def main():
         print(f"The number {num} is {result}.")
     except ValueError:
         print("Invalid input! Please enter a valid integer.")
-
 if __name__ == "__main__":
     main()
-
